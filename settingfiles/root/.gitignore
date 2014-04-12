@@ -1,0 +1,43 @@
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OSX
+._*
+._.Trashes
+.AppleDouble
+.DS_Store
+.LSOverride
+.Spotlight-V100
+.Trashes
+Icon
+
+# Linux
+*~
+
+# Node
+lib-cov
+logs
+node_modules
+pids
+*.dat
+*.log
+*.out
+*.pid
+*.seed
+
+# Sublime text
+*.sublime-project
+*.sublime-workspace
+
+# Dreamweaver
+_notes
+dwsync.xml
+
+# Sass 
+.sass-cache/
+
+# Backup
+*.bak

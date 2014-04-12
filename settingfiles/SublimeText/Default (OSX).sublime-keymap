@@ -1,0 +1,69 @@
+[
+  /* ---------------------------------------------------------------------------
+   Sublime text
+  --------------------------------------------------------------------------- */
+  // Remapping.
+  { "keys": ["super+forward_slash"], "command": "toggle_comment", "args": { "block": false } },
+  { "keys": ["super+m"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+  { "keys": ["super+f"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
+  { "keys": ["super+shift+d"], "command": "find_all_under" },
+
+  /* ---------------------------------------------------------------------------
+   Emmet
+  --------------------------------------------------------------------------- */
+  // Expand.
+  { "keys": ["super+e"], "args": {"action": "expand_abbreviation"}, "command": "run_emmet_action", "context": [
+    { "key": "selection_empty", "operand": true, "operator": "equal" }
+  ]},
+
+  // Wrap.
+  { "keys": ["super+e"], "command": "expand_as_you_type", "context": [
+    { "key": "setting.is_widget", "operand": false, "operator": "equal" },
+    { "key": "selection_empty", "operand": true, "operator": "not_equal" }
+  ]},
+
+  // Select tag.
+  { "keys": ["ctrl+super+]"], "args": {"action": "match_pair_outward"}, "command": "run_emmet_action", "context": [
+    { "key": "selector", "operand": "text.html" }
+  ]},
+
+  // Select attribute.
+  { "keys": ["ctrl+super+shift+]"], "args": {"action": "select_next_item"}, "command": "run_emmet_action"},
+
+  // Select text.
+  { "keys": ["ctrl+super+]"], "command": "find_under_expand", "context": [
+    { "key": "selector", "operand": "text.html", "operator": "not_equal" }
+  ]},
+
+  // Remapping.
+  { "keys": ["super+r"], "args": {"action": "remove_tag"}, "command": "run_emmet_action"},
+  { "keys": ["ctrl+r"], "command": "rename_tag"},
+  { "keys": ["super+i"], "args": {"action": "update_image_size"}, "command": "run_emmet_action"},
+  { "keys": ["super+up"], "args": {"action": "increment_number_by_1"}, "command": "run_emmet_action"},
+  { "keys": ["super+down"], "args": {"action": "decrement_number_by_1"}, "command": "run_emmet_action"},
+  { "keys": ["super+alt+left"], "args": {"action": "prev_edit_point"}, "command": "run_emmet_action"},
+  { "keys": ["super+alt+right"], "args": {"action": "next_edit_point"}, "command": "run_emmet_action"},
+
+  /* ---------------------------------------------------------------------------
+   Trailing spaces.
+  --------------------------------------------------------------------------- */
+  { "keys": ["ctrl+s"], "command": "delete_trailing_spaces" },
+
+  /* ---------------------------------------------------------------------------
+   Quick file Open
+  --------------------------------------------------------------------------- */
+  { "keys": ["super+shift+o"], "command": "quick_file_open" },
+
+  /* ---------------------------------------------------------------------------
+   Terminal
+  --------------------------------------------------------------------------- */
+  { "keys": ["ctrl+t"], "command": "open_terminal_project_folder" },
+
+  /* ---------------------------------------------------------------------------
+   Other
+  --------------------------------------------------------------------------- */
+  // Add break line tag.
+  { "keys": ["shift+enter"], "command": "insert", "args": {"characters": "<br>\n" }, "context": [
+    { "key": "selector", "operand": "text.html" }
+  ]},
+]

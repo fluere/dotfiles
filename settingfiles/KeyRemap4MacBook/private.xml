@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>For me</name>
+    <item>
+      <name>Command_L to Control_L</name>
+      <identifier>ex.remap.commandL2controlL</identifier>
+      <autogen>__KeyToKey__ KeyCode::COMMAND_L, KeyCode::CONTROL_L</autogen>
+      <not>VIRTUALMACHINE</not>
+    </item>
+    <item>
+      <name>Control_L to Command_L</name>
+      <identifier>ex.remap.controlL2commandL</identifier>
+      <autogen>__KeyToKey__ KeyCode::CONTROL_L, KeyCode::COMMAND_L</autogen>
+      <not>VIRTUALMACHINE</not>
+    </item>
+    <item>
+      <name>Control_R to Command_R</name>
+      <identifier>ex.remap.controlR2commandR</identifier>
+      <autogen>__KeyToKey__ KeyCode::CONTROL_R, KeyCode::COMMAND_R</autogen>
+      <not>VIRTUALMACHINE</not>
+    </item>
+    <item>
+      <name>Pause/Break Key to Eject</name>
+      <identifier>ex.remap.pc_pause2eject</identifier>
+      <autogen>__KeyToKey__ KeyCode::PC_PAUSE, ConsumerKeyCode::EJECT</autogen>
+      <not>VIRTUALMACHINE</not>
+    </item>
+    <item>
+      <name>Backquote(`) to KANA/EISUU (toggle)</name>
+      <identifier>ex.remap.jis_backquote_kana_eisuu</identifier>
+      <not>VIRTUALMACHINE</not>
+      <autogen>__KeyToKey__ KeyCode::BACKQUOTE, KeyCode::VK_JIS_TOGGLE_EISUU_KANA</autogen>
+    </item>
+  </item>
+</root>

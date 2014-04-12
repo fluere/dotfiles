@@ -1,0 +1,7 @@
+{
+  "files": [
+    "/private/etc/hosts",
+    "/Applications/XAMPP/xamppfiles/etc/httpd.conf",
+    "/Applications/XAMPP/xamppfiles/etc/extra/httpd-vhosts.conf"
+  ]
+}

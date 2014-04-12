@@ -1,0 +1,19 @@
+{
+  "snippets": {
+    "variables": {
+      "lang": "ja",
+      "locale": "ja-JP",
+      "charset": "UTF-8",
+      "indentation": "  ",
+      "newline": "\n"
+    },
+    "html": {
+      "abbreviations": {
+        "img": "<img src=\"\" alt=\"\" width=\"\" height=\"\" />"
+      }
+    }
+  },
+  "preferences": {
+    "css.autoInsertVendorPrefixes": false
+  },
+}

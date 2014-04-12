@@ -1,0 +1,44 @@
+{
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Theme - itg.flat/itg.dark.tmTheme",
+	"disable_formatted_linebreak": true,
+	"disable_tab_abbreviations": true,
+	"draw_minimap_border": true,
+	"draw_white_space": "selection",
+	"enable_emmet_keymap": false,
+	"enable_telemetry": false,
+	"font_face": "Ricty",
+	"font_size": 14,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"margin": 0,
+	"match_brackets": false,
+	"move_to_limit_on_up_down": true,
+	"open_files_in_new_window": false,
+	"preview_on_click": false,
+	"remember_open_files": true,
+	"rulers":
+	[
+		80
+	],
+	"scroll_past_end": false,
+	"shift_tab_unindent": true,
+	"show_encoding": true,
+	"show_line_endings": true,
+	"tab_completion": false,
+	"tab_size": 2,
+	"theme": "Spacegray.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?"
+}

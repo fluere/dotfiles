@@ -1,0 +1,22 @@
+[core]
+	excludesfile = ~/.gitignore
+  editor = subl -n -w
+  autocrlf = input
+  pager = less -r
+[alias]
+  co = checkout
+  cm = commit
+  cma = commit -a
+  amend = commit --amend -C HEAD
+  df = diff
+  dc = diff --cached
+  st = status
+  sb = show-branch
+[color]
+  status = auto
+  diff = auto
+  branch = auto
+  interactive = auto
+  grep = auto
+[include]
+  path = ~/.gitconfig.local
