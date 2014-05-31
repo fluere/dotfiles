@@ -7,4 +7,4 @@
     $ git clone git@github.com:fluere/dotfiles.git
    
 ### Details.  
-[http://fluere.net/setup-imac-index](http://fluere.net/setup-imac-index)
+[http://fluere.net/post/setup-imac-index](http://fluere.net/post/setup-imac-index)
