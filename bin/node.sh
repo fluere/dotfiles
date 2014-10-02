@@ -9,6 +9,9 @@ nodebrew install-binary stable
 nodebrew use stable
 wait
 
+# Create a symlink
+ln -s ~/.nodebrew/current/bin/node /usr/local/bin/node
+
 # Install node module
 sudo npm install -g autoprefixer
 sudo npm install -g bower
