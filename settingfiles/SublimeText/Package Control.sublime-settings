@@ -1,0 +1,30 @@
+{
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"AutoFileName",
+		"BoundKeys",
+		"BracketHighlighter",
+		"CSScomb",
+		"Codecs33",
+		"ConvertToUTF8",
+		"DashDoc",
+		"Emmet",
+		"Grunt",
+		"Japanize",
+		"jQuery",
+		"LESS",
+		"Local History",
+		"Nettuts+ Fetch",
+		"Quick File Open",
+		"RecentActiveFiles",
+		"Sass",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"Terminal",
+		"Theme - itg.flat",
+		"Theme - Spacegray",
+		"TrailingSpaces"
+	]
+}
