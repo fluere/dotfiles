@@ -33,7 +33,6 @@ cask install cheatsheet || true
 cask install day-o || true
 cask install dropbox || true
 cask install easysimbl || true
-cask install evernote || true
 cask install filezilla || true
 cask install firefox-ja || true
 cask install flash || true
@@ -42,25 +41,30 @@ cask install github || true
 cask install google-chrome || true
 cask install google-japanese-ime || true
 cask install growlnotify || true
-cask install handbrake || true
 cask install imageoptim || true
 cask install iterm2 || true
-cask install ivolume || true
 cask install karabiner || true
 cask install keka || true
 cask install libreoffice || true
 cask install mou || true
 cask install seil || true
-cask install skype || true
 cask install sourcetree || true
 cask install sublime-text3 || true
 cask install the-unarchiver || true
 cask install thunderbird-ja || true
 cask install vlc || true
-cask install x-mirage || true
 cask install xld || true
 cask install xtrafinder || true
 cask install zipeg || true
+
+# Install cask (private only)
+cask install evernote || true
+cask install handbrake || true
+cask install ivolume || true
+cask install skype || true
+cask install x-mirage || true
+
+# Set Alfred link
 cask alfred link
 
 # Install font
