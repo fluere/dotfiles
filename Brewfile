@@ -46,11 +46,11 @@ cask install handbrake || true
 cask install imageoptim || true
 cask install iterm2 || true
 cask install ivolume || true
+cask install karabiner || true
 cask install keka || true
-cask install keyremap4macbook || true
 cask install libreoffice || true
 cask install mou || true
-cask install pckeyboardhack || true
+cask install seil || true
 cask install skype || true
 cask install sourcetree || true
 cask install sublime-text3 || true
