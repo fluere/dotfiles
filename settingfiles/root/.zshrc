@@ -110,6 +110,8 @@ alias mv="mv -i"
 alias la="ls -a"
 alias lf="ls -F"
 alias ll="ls -l"
+alias imgoptall="imageOptim --directory . -a -q"
+alias imgopt="(git diff --cached --name-only --diff-filter=ACM && git ls-files --other --exclude-standard) | grep '.*[jpg|png|gif]$' | imageOptim -a -q"
 
 # Auto jump
 if [ -f `brew --prefix`/etc/autojump ]; then
