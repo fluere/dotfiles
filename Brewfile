@@ -41,6 +41,7 @@ cask install github || true
 cask install google-chrome || true
 cask install google-japanese-ime || true
 cask install growlnotify || true
+cask install imagealpha || true
 cask install imageoptim || true
 cask install iterm2 || true
 cask install karabiner || true
