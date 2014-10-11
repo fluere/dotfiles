@@ -3,41 +3,57 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
 
 # OSX
-._*
-._.Trashes
-.AppleDouble
 .DS_Store
+.AppleDouble
 .LSOverride
+Icon
+._*
 .Spotlight-V100
 .Trashes
-Icon
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
 # Linux
 *~
+.directory
 
 # Node
-lib-cov
 logs
-node_modules
-pids
-*.dat
 *.log
-*.out
+pids
 *.pid
 *.seed
+lib-cov
+coverage
+.grunt
+build/Release
+node_modules
+.lock-wscript
 
 # Sublime text
-*.sublime-project
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
 *.sublime-workspace
+*.sublime-project
+sftp-config.json
 
 # Dreamweaver
 _notes
 dwsync.xml
 
-# Sass 
-.sass-cache/
+# Sass
+.sass-cache
 
 # Backup
 *.bak
