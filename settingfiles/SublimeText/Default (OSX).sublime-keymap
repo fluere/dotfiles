@@ -23,7 +23,7 @@
   ]},
 
   // Select tag.
-  { "keys": ["ctrl+super+]"], "args": {"action": "match_pair_outward"}, "command": "run_emmet_action", "context": [
+  { "keys": ["ctrl+super+]"], "args": {"action": "balance_outward"}, "command": "run_emmet_action", "context": [
     { "key": "selector", "operand": "text.html" }
   ]},
 
@@ -65,5 +65,5 @@
   // Add break line tag.
   { "keys": ["shift+enter"], "command": "insert", "args": {"characters": "<br>\n" }, "context": [
     { "key": "selector", "operand": "text.html" }
-  ]},
+  ]}
 ]
